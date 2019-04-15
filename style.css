@@ -11,7 +11,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #000
+    color: grey;
 }
 li {
     margin: 20px;
@@ -19,6 +19,7 @@ li {
 p {
     margin: 0;
     padding: 0;
+    color: grey;
 }
 h1{
     font-family: 'Microsoft Phagspa';
@@ -28,10 +29,11 @@ input {
     border-radius: 15px;
 }
 .navbar {
-    margin: 0 25px 150px 25px;
+    margin: 0 25px 250px 25px;
 }
-.index {
-     
+
+#active {
+    color: #00ff5f;
 }
 .nav {
     float: right;
@@ -54,7 +56,7 @@ input {
     bottom: 0;
 }
 .info {
-    border-left: 2px solid #333;
+    border-left: 1px solid #333;
     padding-left: 20px;
     width: 20%;
     height: 250px;
@@ -66,22 +68,26 @@ input {
 }
 
 .intro p {
-   padding-top: 15px; 
+   padding-top: 80px; 
 }
 #person1, #person2, #person3, #person4, #person5 {
     display: none;
 }
 .photo {
     display: block;
-    width: 200px;
-    height: 450px;
+    margin: 0 16px;
+    width: 220px;
+    height: 560px;
     background: #FFF;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 3px 5px 12px rgba(0, 0, 0, 0.2)
     /* text-align: center; */
 }
-
+img {
+    border-bottom: 1px solid #A8A8A8;
+}
 .container{
-    width: 200px;
+    
+    width: 220px;
     padding: 10px;
 }
 .container h1 {
