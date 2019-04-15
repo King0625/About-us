@@ -45,15 +45,11 @@ input {
 input[type="text"]{
     font-size: 18px;
 }
-<<<<<<< HEAD
-
-=======
 button {
     border-radius: 15px;
     background: #FFF;
     border: 1px solid #00FF5F;
 }
->>>>>>> 9520f294880051a898edc551bffc25deda2a0f2d
 #header {
     padding: 70px 25px 150px 88px;
     height: 52px;
@@ -116,7 +112,7 @@ button {
 }
 
 .intro p {
-   padding-top: 80px; 
+   /* padding-top: 45px; */
 }
 #person1, #person2, #person3, #person4, #person5 {
     display: none;
@@ -151,4 +147,10 @@ button {
 
 #introTile{
     transition: 1s ease;
+}
+
+#introSubTitle{
+    margin: 0px;
+    height: 70px;
+    box-sizing: border-box;
 }
