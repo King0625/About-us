@@ -1,0 +1,89 @@
+body {
+    background: #FFF;
+    font-family: sans-serif, Arial, Helvetica ;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000
+}
+li {
+    margin: 20px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Microsoft Phagspa';
+}
+
+input {
+    border-radius: 15px;
+}
+.navbar {
+    margin: 0 25px 150px 25px;
+}
+.index {
+     
+}
+.nav {
+    float: right;
+    margin: 15px;
+}
+
+.intro {
+    z-index: 5;
+}
+.footer {
+    z-index: 1;
+}
+.footer h1{
+    margin: 0;
+    padding: 0;
+    font-size: 250px;
+    opacity: 0.1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.info {
+    border-left: 2px solid #333;
+    padding-left: 20px;
+    width: 20%;
+    height: 250px;
+}
+.intro h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.intro p {
+   padding-top: 15px; 
+}
+#person1, #person2, #person3, #person4, #person5 {
+    display: none;
+}
+.photo {
+    display: block;
+    width: 200px;
+    height: 450px;
+    background: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* text-align: center; */
+}
+
+.container{
+    width: 200px;
+    padding: 10px;
+}
+.container h1 {
+    font-size: 20px;
+}
