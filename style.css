@@ -42,10 +42,15 @@ input {
 input[type="text"]{
     font-size: 18px;
 }
-button {
+
+
+.personInfo button {    
     border-radius: 15px;
     background: #FFF;
     border: 1px solid #00FF5F;
+    color: #00FF5F;
+    width: 164px;
+    height: 38px;
 }
 #header {
     padding: 70px 25px 150px 88px;

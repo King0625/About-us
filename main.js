@@ -11,8 +11,7 @@ $(document).ready(()=>{
             $("#intro").show();
             $("#img1 img").fadeOut(100,() => {
                 $("#img1 img").attr("src","炳丞.png").fadeIn(100);
-            }); 
-                     
+            });  
             $("#person1").hide();            
         }
     );
