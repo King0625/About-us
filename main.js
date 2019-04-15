@@ -2,10 +2,19 @@ $(document).ready(function(){
     $("#img1").hover(
         function(){            
             $("#person1").show();
+            // $("#img1 img").fadeOut(100,() => {
+            //     $("#img1 img").attr("src","睿紘.png").fadeIn(100);
+            // });
+            $("#img1 img").fadeOut(100)
+            $("#img1 img").attr("src","睿紘.png").fadeIn(100)
             $("#intro").hide();           
         },
         function() {        
             $("#intro").show();
+            $("#img1 img").fadeOut(100,() => {
+                $("#img1 img").attr("src","炳丞.png").fadeIn(100);
+            }); 
+            ;         
             $("#person1").hide();            
         }
     );
