@@ -94,21 +94,19 @@ $(document).ready(()=>{
 });
 
 var textFly = function (title,subTitle, text) {
-    var introTitle = document.getElementById('introTitle');
-    var intro = document.getElementById('intro')
-    console.log(intro)
-    intro.className = title;
 
+    var introTitle = document.getElementById('introTitle');
+    var intro = document.getElementById('intro');
+    $(intro).stop();
     var introText = document.getElementById('introText');
     var subTitleHtml = document.getElementById('introSubTitle');
+    intro.style = ''
     $('#intro').css('display','none');
+    
     introText.innerText = text;
     introTitle.innerText = title;
     subTitleHtml.innerHTML = subTitle;
-    // $('.' + title).toggle('slide','left',600);
-    if($('.' + title).css('display') == 'none'){
-        $('.' + title).toggle('slide', 'left', 600);
-    }
+    $('#intro').toggle('slide','left',600);
 }
 
 var introReset = function(){
@@ -118,5 +116,4 @@ var introReset = function(){
     introTitle.innerText = 'UIDD Team I';
     subTitleHtml.innerText = '';
     introText.innerHTML = `Hello, everyone. We are team I in the UIDD class. Our project is to revise SinoPac e-loan system. If you feel intersted in it, please kindly contact us. Best regards.`;
-    // textFly('UIDD Team I','',`Hello, everyone. We are team I in the UIDD class. Our project is to revise SinoPac e-loan system. If you feel intersted in it, please kindly contact us. Best regards.`);
 }
