@@ -37,6 +37,9 @@ input {
     height: 29px;
     box-sizing: border-box;
     padding: 0px 10px 0px 10px;
+    background-image: url('./search.png');
+    background-repeat: no-repeat;
+    background-position: 95% center;
 }
 
 input[type="text"]{
@@ -67,6 +70,18 @@ input[type="text"]{
     width: 60%;
 }
 
+#headerTitle{
+    display: inline-block;
+    margin-left: 15px; 
+    height: inherit;
+    position: absolute; 
+    box-sizing: border-box;
+    padding: 5px 0px;
+    font-family: Microsoft Sans Serif;
+    line-height: 23px;
+    color: #686868;
+}
+
 #headerRight{
     width: 40%;
     float: right;
@@ -82,6 +97,7 @@ input[type="text"]{
     margin: 0.5em;
     font-size: 1em;
     font-family: Microsoft YaHei;
+    color: #A2A0A0;
 }
 
 .intro {
@@ -101,7 +117,7 @@ input[type="text"]{
 }
 
 .intro p {
-   padding-top: 80px; 
+   /* padding-top: 45px; */
 }
 #person1, #person2, #person3, #person4, #person5 {
     display: none;
@@ -127,4 +143,19 @@ input[type="text"]{
 }
 .container h1 {
     font-size: 20px;
+}
+
+
+#introText{
+    transition: 1s ease;
+}
+
+#introTile{
+    transition: 1s ease;
+}
+
+#introSubTitle{
+    margin: 0px;
+    height: 70px;
+    box-sizing: border-box;
 }
