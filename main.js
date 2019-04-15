@@ -1,60 +1,82 @@
-$(document).ready(function(){
+$(document).ready(()=>{
     $("#img1").hover(
-        function(){            
+        ()=>{            
             $("#person1").show();
-            // $("#img1 img").fadeOut(100,() => {
-            //     $("#img1 img").attr("src","睿紘.png").fadeIn(100);
-            // });
-            $("#img1 img").fadeOut(100)
-            $("#img1 img").attr("src","睿紘.png").fadeIn(100)
+            $("#img1 img").fadeOut(700,() => {
+                $("#img1 img").attr("src","炳丞2.png").fadeIn(700);
+            });
             $("#intro").hide();           
         },
-        function() {        
+        ()=>{        
             $("#intro").show();
             $("#img1 img").fadeOut(100,() => {
                 $("#img1 img").attr("src","炳丞.png").fadeIn(100);
             }); 
-            ;         
+                     
             $("#person1").hide();            
         }
     );
     $("#img2").hover(
-        function(){            
+        ()=>{            
             $("#person2").show();
+            $("#img2 img").fadeOut(700,() => {
+                $("#img2 img").attr("src","睿紘2.png").fadeIn(700);
+            });
             $("#intro").hide();           
         },
-        function() {        
+        ()=>{        
             $("#intro").show();
+            $("#img2 img").fadeOut(100,() => {
+                $("#img2 img").attr("src","睿紘.png").fadeIn(100);
+            });
             $("#person2").hide();            
         }
     );
     $("#img3").hover(
-        function(){            
+        ()=>{            
             $("#person3").show();
+            $("#img3 img").fadeOut(700,() => {
+                $("#img3 img").attr("src","伯瑋2.png").fadeIn(700);
+            });
             $("#intro").hide();           
         },
-        function() {        
+        ()=>{        
             $("#intro").show();
+            $("#img3 img").fadeOut(100,() => {
+                $("#img3 img").attr("src","伯瑋.png").fadeIn(100);
+            });
             $("#person3").hide();            
         }
     );
     $("#img4").hover(
-        function(){            
+        ()=>{            
             $("#person4").show();
+            $("#img4 img").fadeOut(700,() => {
+                $("#img4 img").attr("src","立壕2.png").fadeIn(700);
+            });
             $("#intro").hide();           
         },
-        function() {        
+        ()=>{        
             $("#intro").show();
+            $("#img4 img").fadeOut(100,() => {
+                $("#img4 img").attr("src","立壕.png").fadeIn(100);
+            });
             $("#person4").hide();            
         }
     );
     $("#img5").hover(
-        function(){            
+        ()=>{            
             $("#person5").show();
+            $("#img5 img").fadeOut(700,() => {
+                $("#img5 img").attr("src","友鈞2.png").fadeIn(700);
+            });
             $("#intro").hide();           
         },
-        function() {        
+        ()=>{        
             $("#intro").show();
+            $("#img5 img").fadeOut(100,() => {
+                $("#img5 img").attr("src","友鈞.png").fadeIn(100);
+            });
             $("#person5").hide();            
         }
     );
