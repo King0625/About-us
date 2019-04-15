@@ -58,5 +58,13 @@ $(document).ready(function(){
             $("#person5").hide();            
         }
     );
-    
 });
+
+var textFly = function (title, text) {
+    var introTitle = document.getElementById('introTitle');
+    var introText = document.getElementById('introText');
+    $('#intro').css('display','none');
+    introText.innerText = text;
+    introTitle.innerText = title;
+    $('#intro').toggle('slide','left',600);
+}
